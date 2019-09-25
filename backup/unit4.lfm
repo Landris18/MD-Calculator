@@ -1,0 +1,49 @@
+object Form4: TForm4
+  Left = 538
+  Height = 124
+  Top = 477
+  Width = 236
+  Caption = 'Form4'
+  ClientHeight = 124
+  ClientWidth = 236
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 8
+    Height = 56
+    Top = 8
+    Width = 240
+    Caption = 'Are you sure to exit MD calculator?'
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 44
+    Top = 68
+    Width = 75
+    Caption = 'Yes'
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 144
+    Height = 44
+    Top = 68
+    Width = 80
+    Caption = 'No'
+    Color = clRed
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+end
